@@ -23,7 +23,7 @@ a:active {
 	color: #98c335;
 }
 
-/* HEADER */
+/* HEADER */  
 header {
 	padding: 2%;
 	padding-bottom: 10%;
@@ -32,7 +32,7 @@ header {
 nav {
 	font-family: 'Raleway', sans-serif;
 	color: black;
-	font-size: 1.125em; /*18px*/ 
+	font-size: 1.125em; /*18px*/
 	text-align: center;
 	padding-left: 1.0204082%; /*10px*/
 	padding-right: 1.0204082%; 
@@ -74,7 +74,7 @@ footer {
 }
 
 
-/*HOME PAGE*/
+/*HOME PAGE
 #coaImg1 {
 	width: 60%;
 	float: left;
@@ -100,16 +100,16 @@ footer {
 /*GOODS & PASTRIES*/
 
 
-/* GIFT BASKET PAGE*/
+/* GIFT BASKET PAGE
 #otherBaskets {
 	columns:100px 2;
 	-webkit-columns:100px 2; /* Safari and Chrome */
-	-moz-columns:100px 2; /* Firefox */
+	-moz-columns:100px 2; /* Firefox 
 }
 #giftBaskets{
 	columns:100px 3;
 	-webkit-columns:100px 3; /* Safari and Chrome */
-	-moz-columns:100px 3; /* Firefox */
+	-moz-columns:100px 3; /* Firefox 
 	grid-rows:100px (30px 60px);
 }
 .giftBasket {
