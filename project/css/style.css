@@ -23,7 +23,7 @@ a:active {
 	color: #98c335;
 }
 
-/* HEADER 
+/* HEADER */
 header {
 	padding: 2%;
 	padding-bottom: 10%;
@@ -34,7 +34,7 @@ nav {
 	color: black;
 	font-size: 1.125em; /*18px*/ 
 	text-align: center;
-	padding-left: 1.0204082%; /*10px*
+	padding-left: 1.0204082%; /*10px*/
 	padding-right: 1.0204082%; 
 	padding-bottom: 1%; 
 	padding-top: 1%; 
@@ -53,7 +53,7 @@ nav {
 	display: inline;
 }
 
-/* HEADER *
+/* HEADER */
 
 	
 h1, h2, h3, h4 {
@@ -74,7 +74,7 @@ footer {
 }
 
 
-/*HOME PAGE*
+/*HOME PAGE*/
 #coaImg1 {
 	width: 60%;
 	float: left;
@@ -100,9 +100,23 @@ footer {
 /*GOODS & PASTRIES*/
 
 
-/* GIFT BASKET PAGE*
+/* GIFT BASKET PAGE*/
 #otherBaskets {
-	-moz-columns: 2;
+	columns:100px 2;
+	-webkit-columns:100px 2; /* Safari and Chrome */
+	-moz-columns:100px 2; /* Firefox */
+}
+#giftBaskets{
+	columns:100px 3;
+	-webkit-columns:100px 3; /* Safari and Chrome */
+	-moz-columns:100px 3; /* Firefox */
+	grid-rows:100px (30px 60px);
+}
+.giftBasket {
+	text-align: center;
+	width: 80%;
+	height: 80%;
+
 }
  /*CONTACT*/
 
@@ -111,6 +125,7 @@ footer {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles */
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -119,8 +134,34 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 /* Styles */
 }
+
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
 /* Styles */
 }
+
+/*@media only screen and (min-width: 481px) and (max-width: 767px) {
+   body{background-color: #666666}
+   header{background-color: transparent;}
+   h1 {float: none; font-size: 3em;}
+   #coaImg2 {display: none;}
+   #headerLogo { float: none;}
+   }
+        
+@media only screen and (min-width: 320px) and (max-width:480px ) {
+   header{background-color: transparent;}
+   body{background-image:none; background-color: #fbb829}
+   h1 {float: none; font-size: 2em;}
+   #coaImg2 {display: none;}
+   #headerLogo { float: none;}	
+   }
+   
+ @media only screen and (max-width: 319px) {
+    header{background-color: transparent;}
+    body{background-image:none; background-color: #a6e3bb;}
+    nav {float: none; font-size: 1em; text-align: center; padding-top: 1%; word-spacing: 10px;}
+   	h1 {float: none; font-size: 2em; color: #fbb829;}
+    #coaImg2 {display: none;}
+    #headerLogo { float: none;}
+ }*/
