@@ -43,7 +43,7 @@ header {
 }
 
 nav {
-    font-family: Raleway, sans-serif;
+	font-family: 'Fjalla One', sans-serif;
     color: #000;
     font-size: 1.125em;
 /*18px*/
@@ -78,9 +78,10 @@ nav {
 
 /* HEADER FOOTER */
 h1,h2,h3,h4,h5 {
-    font-family: Raleway, sans-serif;
+    font-family: "Gill Sans", sans-serif;
     color: #98c335;
     padding: 0;
+    text-transform: uppercase;
 }
 
 h1 {
@@ -190,19 +191,31 @@ footer {
 
 
 /*COOKING CLASS*/
+
 .classesImg {
-    float: right;
-    display: inline;
-    width: 2%;
-    padding: 1%;
+    width: 32%;
+	display: inline;
+    border: solid;
+    border-color: white;
+	border-width: 4px;
+    margin-top: 1.5em;
 }
 
+#classImages {
+    margin: 10px;
+}
 #classes p {
     font-size: 80%;
 }
 
 #classDisclaimer {
     font-size: 60%;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding-bottom: .5em;
+}
+#classesCOA p{
+ 	font-size: 85%;
 }
 
 /*GOODS & PASTRIES*/
@@ -280,10 +293,6 @@ section {
 /*CONTACT*/
 #contactInfo {
     text-align: center;
-}
-
-#contactInfo h2 {
-    line-height: 0;
 }
 
 .address {
