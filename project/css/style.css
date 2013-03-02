@@ -62,6 +62,7 @@ nav {
 
 #topNav li {
     display: inline;
+    padding-left: .3em;
 }
 
 #topNav a {
@@ -70,6 +71,7 @@ nav {
 
 #footerNav li {
     display: inline;
+    padding-left: .3em;
 }
 
 #footerNav a {
