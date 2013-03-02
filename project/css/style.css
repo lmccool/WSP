@@ -77,7 +77,7 @@ nav {
 }
 
 /* HEADER FOOTER */
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5{
     font-family: "Gill Sans", sans-serif;
     color: #98c335;
     padding: 0;
@@ -110,8 +110,9 @@ h4 {
 }
 
 h5 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: center;
+	margin-bottom: 0;
 }
 
 ul {
@@ -220,17 +221,26 @@ footer {
 
 /*GOODS & PASTRIES*/
 .imageMenu {
-    width: 24%;
-    height: 24%;
-    padding-left: 2.6px;
-    padding-right: 2.6px;
+    width: 23%;
+    height: 23%;
+    border: solid;
+    border-color: white;
+	border-width: 4px;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	margin-left: .2em;
+	margin-right: .2em;
 }
 
+#menuPhotos { 
+    margin-top: 1.5em;
+}
 #menuColumns {
     columns: 100px 2;
     -webkit-columns: 100px 2;/* Safari and Chrome */
     -moz-columns: 100px 2;/* Firefox */
     text-align: center;
+    margin-top: .5em;
 }
 
 .items {
@@ -317,6 +327,18 @@ section {
 
 #directions h3 {
     padding: 0;
+}
+
+#contactCOA {
+	margin-top: 1.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#contactImg {
+	width: 100%;
+	margin-top: .8em;
+	margin-bottom: .6em;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
