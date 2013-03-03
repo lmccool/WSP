@@ -349,7 +349,7 @@ section {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width:480px ) {
    /*-----EVERY PAGE-------*/
-   body{background-color: #f5be0b; background-image: none; width: 480px;}    
+   body{background-color: #f5be0b; background-image: none; width: 100%;}    
    nav {float: none; padding: 0; word-spacing: 5px; font-size: 120%; margin: auto;}
    #topNav{padding: 0; float: none; word-spacing: 5px; font-size: 100%; margin: auto;}
    #headerLogo {float: none; width: 100%;}
