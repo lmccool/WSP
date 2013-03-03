@@ -408,17 +408,15 @@ section {
 
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and min-device-width 768px and max-device-width 1024px {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   /*-----EVERY PAGE-------*/
    body{width: 80%; margin: 0;}    
-   nav {padding: 0; word-spacing: 5px; font-size: 120%; margin: auto;}
-   header {padding: 2%; width: 100%;padding-bottom: 0;}
-   #topNav{padding: 0; word-spacing: 5px; font-size: 100%; margin: auto;}
-   #footerNav li { margin: 0; float: none; word-spacing: 5px; font-size: 100%; padding: 0;}
-   #footerNav{margin: 0; padding: 0; float: none;}
+   nav {padding: 0; word-spacing: 5px; font-size: 100%; margin: 0;}
+   #topNav{word-spacing: 5px; font-size: 100%; float: right; padding-right: 1.0204082%; padding-bottom: 1%; padding-top: 1%;}
+   #footerNav li { margin: 0; word-spacing: 5px; font-size: 100%; padding: 0;}
+   #footerNav{margin: 0; padding: 0;}
    p{font-size: 80%;}
-   .pageCOA {padding:0;background-image: url(http://img.photobucket.com/albums/v707/geekyshoes/bkg-1.png); clear: both;}
-   #COA{background-image: url(http://img.photobucket.com/albums/v707/geekyshoes/bkg-1.png);}
+   .pageCOA {padding:0;clear: both;}
    /*-----EVERY PAGE END-------*/
    #giftBaskets, #clickInfo, #otherBaskets, #coaImg2, #mapImg{display: none;}
    #coaImg1 {float: none; width: 100%; padding-left: 0; padding-bottom: .5em;}
