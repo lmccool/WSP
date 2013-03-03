@@ -59,11 +59,11 @@ nav {
 
 #headerLogo {
     float: left;
+    width: 30%;
 }
 
 #topNav li {
     display: inline;
-    padding-left: .3em;
 }
 
 #topNav a {
