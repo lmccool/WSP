@@ -348,22 +348,26 @@ section {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width:480px ) {
-   body{background-color: #f5be0b;}    
+   /*-----EVERY PAGE-------*/
+   body{background-color: #f5be0b; background-image: none; width: 480px;}    
    nav {float: none; padding: 0; word-spacing: 5px; font-size: 120%; margin: auto;}
-   #topNav{padding: 0; float: none; word-spacing: 5px; font-size: 120%; margin: auto;}
+   #topNav{padding: 0; float: none; word-spacing: 5px; font-size: 100%; margin: auto;}
    #headerLogo {float: none; width: 100%;}
    header {padding: 2%; }
-   #footerNav li { margin: 0; float: none; word-spacing: 5px; font-size: 100%;}
+   #footerNav li { margin: 0; float: none; word-spacing: 5px; font-size: 100%; padding: 0;}
    #footerNav{margin: 0; padding: 0; float: none;}
+   p{font-size: 80%;}
+   /*-----EVERY PAGE END-------*/
    #giftBaskets, #clickInfo, #otherBaskets, #coaImg2{display: none;}
    #coaImg1 {float: none; width: 100%; padding-left: 0; padding-bottom: .5em;}
+   h3{line-height: normal;}
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and min-device-width 768px and max-device-width 1024px {
     /* Styles */
- nav {float: none; padding: 0; word-spacing: 5px; font-size: 120%; margin: auto;}
-   #topNav{padding: 0; float: none; word-spacing: 5px; font-size: 120%; margin: auto;}
+   nav {float: none; padding: 0; word-spacing: 5px; font-size: 120%; margin: auto;}
+   #topNav{padding: 0; float: none; word-spacing: 5px; font-size: 100%; margin: auto;}
    #headerLogo {float: none; width: 100%;}
    header {padding: 2%; }
    #footerNav li { margin: 0; float: none; word-spacing: 5px; font-size: 100%;}
