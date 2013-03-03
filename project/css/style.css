@@ -189,7 +189,7 @@ footer {
 	margin-bottom: .6em;
 }
 
-#aboutImg {
+#aboutImg, #contactImg {
 	width: 100%;
 	margin-top: .8em;
 	margin-bottom: .6em;
@@ -402,8 +402,8 @@ section {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /*-----EVERY PAGE-------*/
    body{width: 100%; margin: 0;}    
-   nav {padding: 0; word-spacing: 5px; font-size: 100%; margin: 0;}
-   #topNav{word-spacing: 5px; font-size: 100%; float: right; padding-right: 1.0204082%; padding-bottom: 1%; padding-top: 1%;}
+   nav {padding: 0; word-spacing: 3px; font-size: 100%; margin: 0;}
+   #topNav{word-spacing: 3px; font-size: 100%; float: right; padding-right: 1%; padding-bottom: 1%; padding-top: 1%;}
    #footerNav li { margin: 0; word-spacing: 5px; font-size: 100%; padding: 0;}
    #footerNav{margin: 0; padding: 0;}
    p{font-size: 80%;}
