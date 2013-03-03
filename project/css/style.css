@@ -351,7 +351,7 @@ section {
    body{background-color: #f5be0b;}    
    nav {float: none; padding: 0; word-spacing: 5px; font-size: 120%; margin: auto;}
    #topNav{padding: 0; float: none; word-spacing: 5px; font-size: 120%; margin: auto;}
-   #headerLogo {float: none; padding-left: 5%; width: 100%;}
+   #headerLogo {float: none; width: 100%;}
    header {padding: 2%; }
    #footerNav li { margin: 0; float: none; word-spacing: 5px; font-size: 100%;}
    #footerNav{margin: 0; padding: 0; float: none;}
@@ -364,7 +364,7 @@ section {
     /* Styles */
  nav {float: none; padding: 0; word-spacing: 5px; font-size: 120%; margin: auto;}
    #topNav{padding: 0; float: none; word-spacing: 5px; font-size: 120%; margin: auto;}
-   #headerLogo {float: none; padding-left: 5%; width: 100%;}
+   #headerLogo {float: none; width: 100%;}
    header {padding: 2%; }
    #footerNav li { margin: 0; float: none; word-spacing: 5px; font-size: 100%;}
    #footerNav{margin: 0; padding: 0; float: none;}
