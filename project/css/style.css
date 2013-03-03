@@ -408,7 +408,7 @@ section {
    p{font-size: 80%;}
    .pageCOA {padding:0;clear: both;}
    /*-----EVERY PAGE END-------*/
-   #giftBaskets, #clickInfo, #otherBaskets, #coaImg2, #mapImg{display: none;}
+   #coaImg2, #mapImg{display: none;}
    #coaImg1 {float: none; width: 100%; padding-left: 0; padding-bottom: .5em;}
    h3{line-height: normal;}
    #menuColumns{display:inherit; }
@@ -420,8 +420,7 @@ section {
    /*----GOODS & PASTRIES---*/
 	#menuPhotos{display: inline;}
 	.imageMenu{width: 22%;}
-   /*----GOODS & PASTRIES END---*/ 
-	#giftBasketMain{display: none;}   
+   /*----GOODS & PASTRIES END---*/   
    /*-----CLASSES-------*/ 
   #classesCOA {padding: 0; margin: 0;}
   #classImages { padding: 0; margin: 0;}
