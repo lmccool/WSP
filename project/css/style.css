@@ -388,6 +388,7 @@ section {
    #headerLogo {float: none; width: 100%;}
    header {padding: 2%; }
    #footerNav li { margin: 0; float: none; word-spacing: 5px; font-size: 100%; padding: 0;}
+   #COA {width: 100%;}
    #footerNav{margin: 0; padding: 0; float: none;}
    p{font-size: 80%;}
    /*-----EVERY PAGE END-------*/
