@@ -380,6 +380,33 @@ section {
    /*-----CLASSES END-------*/ 
 }
 
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+   /*-----EVERY PAGE-------*/
+   body{background-color: #f5be0b; width: 100%; margin: 0;}    
+   nav {float: none; clear:both; padding: 0; word-spacing: 5px; font-size: 120%; margin: auto;}
+   #topNav{padding: 0; word-spacing: 5px; font-size: 100%; margin: auto;}
+   #headerLogo {float: none; width: 100%;}
+   header {padding: 2%; }
+   #footerNav li { margin: 0; float: none; word-spacing: 5px; font-size: 100%; padding: 0;}
+   #footerNav{margin: 0; padding: 0; float: none;}
+   p{font-size: 80%;}
+   /*-----EVERY PAGE END-------*/
+   #giftBaskets, #clickInfo, #otherBaskets, #coaImg2,#mapImg{display: none;}
+   #coaImg1 {float: none; width: 100%; padding-left: 0; padding-bottom: .5em;}
+   h3{line-height: normal;}
+   #menuColumns{display:inherit; }
+   /*-----ABOUT-------*/ 
+   #aboutColumns {margin:0;}
+   /*-----ABOUT END-------*/ 
+   #contactInfo {padding-top: 5%;}
+   /*----GOODS & PASTRIES---*/
+   /*----GOODS & PASTRIES END---*/ 
+   /*-----CLASSES-------*/ 
+  #classesCOA {padding: 0; margin: 0;}
+   /*-----CLASSES END-------*/ 
+}
+
+
 /* iPads (portrait and landscape) ----------- */
 @media only screen and min-device-width 768px and max-device-width 1024px {
   /*-----EVERY PAGE-------*/
@@ -410,59 +437,3 @@ section {
   #classesCOA {padding: 0; margin: 0;}
    /*-----CLASSES END-------*/   
 }
-
-@media only screen and (min-width: 481px) and (max-width: 767px) {
-   /*-----EVERY PAGE-------*/
-   body{background-color: #f5be0b; width: 100%; margin: 0;}    
-   nav {float: none; clear:both; padding: 0; word-spacing: 5px; font-size: 120%; margin: auto;}
-   #topNav{padding: 0; word-spacing: 5px; font-size: 100%; margin: auto;}
-   #headerLogo {float: none; width: 100%;}
-   header {padding: 2%; }
-   #footerNav li { margin: 0; float: none; word-spacing: 5px; font-size: 100%; padding: 0;}
-   #footerNav{margin: 0; padding: 0; float: none;}
-   p{font-size: 80%;}
-   /*-----EVERY PAGE END-------*/
-   #coaImg1 {float: none; width: 100%; padding-left: 0; padding-bottom: .5em;}
-   h3{line-height: normal;}
-   #menuColumns{display:inherit; }
-   /*-----ABOUT-------*/ 
-   #aboutColumns {margin:0;}
-   /*-----ABOUT END-------*/ 
-   #contactInfo {padding-top: 5%;}
-   /*----GOODS & PASTRIES---*/
-   /*----GOODS & PASTRIES END---*/ 
-   /*-----CLASSES-------*/ 
-  #classesCOA {padding: 0; margin: 0;}
-   /*-----CLASSES END-------*/ 
-}
-
-
-
-
-
-
-
-/*@media only screen and (min-width: 481px) and (max-width: 767px) {
-
-   header{background-color: transparent;}
-   h1 {float: none; font-size: 3em;}
-   #coaImg2 {display: none;}
-   #headerLogo { float: none;}
-   }
-        
-@media only screen and (min-width: 320px) and (max-width:480px ) {
-   header{background-color: transparent;}
-   body{background-image:none; background-color: #fbb829}
-   h1 {float: none; font-size: 2em;}
-   #coaImg2 {display: none;}
-   #headerLogo { float: none;}	
-   }
-   
- @media only screen and (max-width: 319px) {
-    header{background-color: transparent;}
-    body{background-image:none; background-color: #a6e3bb;}
-    nav {float: none; font-size: 1em; text-align: center; padding-top: 1%; word-spacing: 10px;}
-   	h1 {float: none; font-size: 2em; color: #fbb829;}
-    #coaImg2 {display: none;}
-    #headerLogo { float: none;}
- }*/
