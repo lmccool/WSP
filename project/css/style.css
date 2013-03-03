@@ -146,13 +146,19 @@ footer {
 #coaImg1 {
     width: 60%;
     float: left;
-    padding-left: 20px;
 }
 
 #coaImg2 {
-    padding: 2%;
-    padding-left: 100px;
-    width: 185px;
+
+    width: 20%;
+    float: right;
+}
+#COA {
+	width: 100%;
+	clear: both;
+	background-color: #98c335;
+    padding-top: 1em;
+    padding-bottom: .005em;
 }
 
 #mainContact {
@@ -160,12 +166,7 @@ footer {
     padding: 2%;
     font-size: 100%;
     line-height: 1%;
-}
-
-#COA {
-    background-color: #98c335;
-    padding-top: 1em;
-    padding-bottom: .005em;
+    	clear: both;
 }
 
 
@@ -202,12 +203,13 @@ footer {
     border: solid;
     border-color: white;
 	border-width: 4px;
-    margin-top: 1.5em;
 }
 
 #classImg4 {display: none;}
 #classImages {
-    margin: 10px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin:.5em
 }
 #classes p {
     font-size: 80%;
@@ -359,10 +361,9 @@ section {
    #footerNav{margin: 0; padding: 0; float: none;}
    p{font-size: 80%;}
    .pageCOA {padding: .5em;background-image: url(http://img.photobucket.com/albums/v707/geekyshoes/bkg-1.png);}
-   #COA{background-image: url(http://img.photobucket.com/albums/v707/geekyshoes/bkg-1.png);}
+   #COA{padding: .5em;background-image: url(http://img.photobucket.com/albums/v707/geekyshoes/bkg-1.png);}
    /*-----EVERY PAGE END-------*/
-   #giftBaskets, #clickInfo, #otherBaskets, #coaImg2,#mapImg{display: none;}
-   #coaImg1 {float: none; width: 100%; padding-left: 0; padding-bottom: .5em;}
+   #giftBaskets, #clickInfo, #otherBaskets,#mapImg{display: none;}
    h3{line-height: normal;}
    #menuColumns{display:inherit; }
    /*-----ABOUT-------*/ 
@@ -376,7 +377,7 @@ section {
    
    /*-----CLASSES-------*/ 
   #classImg1, #classImg2, #classImg3{display: none;}
-  #classesCOA {padding: 0; margin: 0;}
+  #classesCOA, #classImages{padding: 0; margin: 0;}
    /*-----CLASSES END-------*/ 
 }
 
@@ -388,12 +389,10 @@ section {
    #headerLogo {float: none; width: 100%;}
    header {padding: 2%; }
    #footerNav li { margin: 0; float: none; word-spacing: 5px; font-size: 100%; padding: 0;}
-   #COA {width: 100%;}
    #footerNav{margin: 0; padding: 0; float: none;}
    p{font-size: 80%;}
    /*-----EVERY PAGE END-------*/
-   #giftBaskets, #clickInfo, #otherBaskets, #coaImg2,#mapImg{display: none;}
-   #coaImg1 {float: none; width: 100%; padding-left: 0; padding-bottom: .5em;}
+   #giftBaskets, #clickInfo, #otherBaskets,#mapImg{display: none;}
    h3{line-height: normal;}
    #menuColumns{display:inherit; }
    /*-----ABOUT-------*/ 
@@ -403,7 +402,8 @@ section {
    /*----GOODS & PASTRIES---*/
    /*----GOODS & PASTRIES END---*/ 
    /*-----CLASSES-------*/ 
-  #classesCOA {padding: 0; margin: 0;}
+   #classesCOA, #classImages{padding: 0; margin: 0;}
+   #classImg1, #classImg2, #classImg3{display: none;}
    /*-----CLASSES END-------*/ 
 }
 
@@ -421,7 +421,7 @@ section {
    .pageCOA {padding:0;background-image: url(http://img.photobucket.com/albums/v707/geekyshoes/bkg-1.png); clear: both;}
    #COA{background-image: url(http://img.photobucket.com/albums/v707/geekyshoes/bkg-1.png);}
    /*-----EVERY PAGE END-------*/
-   #giftBaskets, #clickInfo, #otherBaskets, #coaImg2,#mapImg{display: none;}
+   #giftBaskets, #clickInfo, #otherBaskets, #coaImg2, #mapImg{display: none;}
    #coaImg1 {float: none; width: 100%; padding-left: 0; padding-bottom: .5em;}
    h3{line-height: normal;}
    #menuColumns{display:inherit; }
@@ -437,5 +437,7 @@ section {
    /*-----CLASSES-------*/ 
   #classImg1, #classImg2, #classImg3{display: none;}
   #classesCOA {padding: 0; margin: 0;}
+  #classImages { padding: 0; margin: 0;}
+  #classImg4 {display: inline;}
    /*-----CLASSES END-------*/   
 }
