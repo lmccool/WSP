@@ -362,11 +362,11 @@ section {
    /*-----ABOUT END-------*/ 
    #contactInfo {padding-top: 5%;}
    /*----GOODS & PASTRIES---*/
-   	#menuPhotos, #giftBasketMain{display: none;}
+   	#menuPhotos, #giftBasketMain, #contactLogo{display: none;}
    /*----GOODS & PASTRIES END---*/ 
    
    /*-----CLASSES-------*/ 
-  #classImg1, #classImg2, #classImg3{display: none;}
+   .classesImg, #aboutImg {display: none;}
   #classesCOA, #classImages{padding: 0; margin: 0;}
    /*-----CLASSES END-------*/ 
 }
@@ -382,7 +382,7 @@ section {
    #footerNav{margin: 0; padding: 0; float: none;}
    p{font-size: 80%;}
    /*-----EVERY PAGE END-------*/
-   #giftBaskets, #clickInfo, #otherBaskets,#mapImg{display: none;}
+   #giftBaskets, #clickInfo, #otherBaskets,#mapImg, #contactLogo{display: none;}
    h3{line-height: normal;}
    #menuColumns{display:inherit; }
    /*-----ABOUT-------*/ 
@@ -393,7 +393,6 @@ section {
    /*----GOODS & PASTRIES END---*/ 
    /*-----CLASSES-------*/ 
    #classesCOA, #classImages{padding: 0; margin: 0;}
-   #classImg1, #classImg2, #classImg3{display: none;}
    /*-----CLASSES END-------*/ 
 }
 
@@ -419,12 +418,11 @@ section {
    /*-----ABOUT END-------*/ 
    #contactInfo {padding-top: 5%;}
    /*----GOODS & PASTRIES---*/
-	#menuPhotos {display: inline;}
-	.imageMenu{ width: 22%;}
+	#menuPhotos{display: inline;}
+	.imageMenu{width: 22%;}
    /*----GOODS & PASTRIES END---*/ 
 	#giftBasketMain{display: none;}   
    /*-----CLASSES-------*/ 
-  #classImg1, #classImg2, #classImg3{display: none;}
   #classesCOA {padding: 0; margin: 0;}
   #classImages { padding: 0; margin: 0;}
   #classImg4 {display: inline; width: 100%; border: none;}
