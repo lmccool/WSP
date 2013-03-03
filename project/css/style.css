@@ -144,15 +144,11 @@ footer {
 
 /*HOME PAGE*/
 #coaImg1 {
-    width: 60%;
-    float: left;
+    width: 100%;
+    margin-top: .8em;
+	margin-bottom: .6em;
 }
 
-#coaImg2 {
-
-    width: 20%;
-    float: right;
-}
 #COA {
 	width: 100%;
 	clear: both;
@@ -232,14 +228,13 @@ footer {
     border: solid;
     border-color: white;
 	border-width: 4px;
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
+	margin-top: .8em;
+	margin-bottom: .6em;
 	margin-left: .2em;
 	margin-right: .2em;
 }
  
 #menuPhotos { 
-    margin-top: 1.5em;
     width: 100%;
 }
 #menuColumns {
